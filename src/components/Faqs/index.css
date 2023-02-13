@@ -1,0 +1,39 @@
+.bg_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  padding: 10px;
+}
+.faqs_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 80%;
+}
+.heading {
+  color: #cb8805;
+  font-family: 'Roboto';
+}
+.faqs_list {
+  padding: 0;
+  list-style: none;
+  margin: 5px;
+  width: 80%;
+}
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 20px;
+  }
+  .faqs_Container {
+    width: 100%;
+  }
+  .faqs_list {
+    width: 100%;
+  }
+}
